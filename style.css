@@ -41,7 +41,10 @@ header nav a {
   color: white;
 }
 
-
+.services h2 {
+    text-align: center;
+}
+  
 .services {
   padding: 50px 20px;
   background: #f9f9f9;
@@ -145,3 +148,4 @@ footer {
     padding: 40px 20px;
   }
 }
+
