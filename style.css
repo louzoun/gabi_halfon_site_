@@ -19,6 +19,16 @@ header nav a {
   text-decoration: none;
 }
 
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center; /* מרכז את הפריטים */
+  gap: 20px; /* רווחים ביניהם */
+  padding: 0;
+  margin: 0;
+}
+
+
 .hero {
   text-align: center;
   padding: 80px 20px;
@@ -41,10 +51,7 @@ header nav a {
   color: white;
 }
 
-.services h2 {
-    text-align: center;
-}
-  
+
 .services {
   padding: 50px 20px;
   background: #f9f9f9;
@@ -148,4 +155,5 @@ footer {
     padding: 40px 20px;
   }
 }
+
 
